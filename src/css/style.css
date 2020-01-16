@@ -1,0 +1,53 @@
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.justify-items-center{
+    justify-items: center;
+}
+
+.ml-auto{
+margin-left: auto;
+}
+
+.mr-auto{
+    margin-right: auto;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*HEADER styles*/
+.header .brand-logo{
+    position: static;
+}
+
+.header .currency-select{
+    width: 100px;
+}
+
+.header .currency-select .select-dropdown{
+    margin: 0;
+    color:#fff;
+    border-bottom: 0;
+}
+.header .currency-select .select-dropdown:focus{
+    border-bottom: 0;
+}
+
+.header .currency-select .caret{
+    fill: #fff;
+}
+
+.header .logo .brand-logo{
+    font-size: 1.5rem;
+} 
+
+.card-action button{
+width: 140px;
+}
